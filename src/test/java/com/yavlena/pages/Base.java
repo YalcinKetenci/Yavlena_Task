@@ -12,11 +12,7 @@ public abstract class Base {
     }
 
 
-    @FindBy(id = "searchBox")
-    WebElement searchBox;
 
-    @FindBy(xpath = "//button[@type=\"submit\"]")
-    WebElement searchButton;
 
 
 }
